@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+ main {
+    flex: 1 0 auto;
+ }
+ .imagenRey{
+ 	height: 100px;
+	width: 100px;
+ }
+ .iconoPequeno{
+ 	height: 50px;
+	width: 50px;	
+ }
+ .carrusel2{
+ 	height: 500px;
+ }
+.imgGaleria{
+	height: 200px;
+	width: 200px;
+}
+h3, h1, h2{
+	font-family: Arial, Helvetica; 
+}
+p{
+	font-family: "Times New Roman";
+	color: #0101DF;
+}
+h1{
+	color: #0080FF;
+}
+h3{
+	color: #2e9afe;
+}
+.card-body, .form-group, #tituloCard, .formContacto{
+	font-family: "Times New Roman";
+	color: #0101DF;	
+}

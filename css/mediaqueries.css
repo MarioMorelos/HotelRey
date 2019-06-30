@@ -1,0 +1,67 @@
+html {
+  font-size: 1rem;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	html {
+    font-size: 1.5rem;
+  	} 	
+  	img{
+  		width: 50px;
+  		height: 50px;
+  	}
+  	.restaurante{
+  		width: 400px;
+  		height: 400px;
+  	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	html {
+    font-size: 1.4rem;
+  	}
+  	img{
+  		width: 50px;
+  		height: 50px;
+  	}	
+  	.restaurante{
+  		width: 200px;
+  		height: 200px;
+  	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+	 html {
+    font-size: 1.3rem;
+  	}
+  	img{
+  		width: 50px;
+  		height: 50px;
+  	}
+  	.restaurante{
+  		width: 225px;
+  		height: 225px;
+  	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	html{
+	    font-size: 1rem;
+	}
+	img{
+		width: 50px;
+		height: 50px;
+	}
+	.restaurante{
+  		width: 250px;
+  		height: 250px;
+  	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
